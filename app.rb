@@ -15,7 +15,7 @@ get '/say/:number/:phrase' do
 end
 
 get '/square/:number' do
-  "#{params[:number] ** 2}"
+  "the square is #{params[:number] ** 2}"
 end
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do
