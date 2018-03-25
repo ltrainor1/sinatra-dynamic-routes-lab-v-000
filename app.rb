@@ -15,6 +15,7 @@ get '/say/:number/:phrase' do
 end
 
 get '/square/:number' do
+  binding.pry
   "the square is #{params[:number] ** 2}"
 end
 
