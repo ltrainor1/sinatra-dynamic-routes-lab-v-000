@@ -16,7 +16,7 @@ end
 
 get '/square/:number' do
   binding.pry
-  "the square is #{params[:number] ** 2}"
+  "the square is #{params[:number].to_i ** 2}"
 end
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do
