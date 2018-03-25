@@ -15,7 +15,7 @@ get '/say/:number/:phrase' do
 end
 
 get 'square/:number' do
-  params[:number]^2
+  "test"
 end
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do
